@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Biodata App</string>
+    <string-array name="kelas">
+        <item>Informatika 1</item>
+        <item>Informatika 2</item>
+        <item>Informatika 3</item>
+        <item>Informatika 4</item>
+        <item>Informatika 5</item>
+        <item>Informatika 6</item>
+    </string-array>
+</resources>
