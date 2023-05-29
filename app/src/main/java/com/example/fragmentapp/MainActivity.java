@@ -18,6 +18,14 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        if (savedInstanceState == null) {
+            FirstFragment FirstFragment= new FirstFragment();
+            getSupportFragmentManager() .beginTransaction()
+                    .replace(R.id.FrameLayout, FirstFragment)
+                    .commit();
+
+        }
+
         btnFragment1 = findViewById(R.id.btnFragment1);
         btnFragment2 = findViewById(R.id.btnFragment2);
 
